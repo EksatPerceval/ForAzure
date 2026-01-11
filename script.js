@@ -8,7 +8,7 @@ btnHamburger.addEventListener("click", () => {
 });
 
 menu.addEventListener("click", (event) => {
-    if (event.target.tagName.toLowerCase() === 'a') {
+    if (event.target.tagName.toLowerCase() === 'a') {git push origin main
         menu.classList.remove("menu-active");
     }
 });
