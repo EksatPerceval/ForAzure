@@ -20,6 +20,5 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            git config --global --add safe.directory /var/www/kelompokmjsasep.my.id/ForAzure
             cd /var/www/kelompokmjsasep.my.id/ForAzure
-            git pull
+            git pull origin main
